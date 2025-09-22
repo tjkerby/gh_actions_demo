@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "DS Actions Demo"
+  navbar:
+    left:
+      - href: docs/index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
